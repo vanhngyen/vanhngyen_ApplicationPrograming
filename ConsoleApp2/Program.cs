@@ -7,8 +7,8 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.Write("Enter a number: ");
-            //int n = Convert.ToInt32(Console.ReadLine());
-            int n = int.Parse(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
+            //int n = int.Parse(Console.ReadLine());
             
             for (int i = 0; i < n; i++)
             {
