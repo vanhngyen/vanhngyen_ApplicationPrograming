@@ -84,6 +84,7 @@ namespace ConsoleApp1
 
         static void bien()
         {
+            
             int aNum = 6;
             int bNum = 9;
             int cNum = aNum + bNum;
