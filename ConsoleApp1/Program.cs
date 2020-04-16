@@ -90,6 +90,7 @@ namespace ConsoleApp1
             int cNum = aNum + bNum;
             
             Console.WriteLine("a + b = c : {0} + {1} = {2}",aNum,bNum,cNum);
+            Console.WriteLine("ahi");
         }
     }
 }
