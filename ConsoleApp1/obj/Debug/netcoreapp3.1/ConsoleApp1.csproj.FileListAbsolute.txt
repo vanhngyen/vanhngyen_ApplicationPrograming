@@ -1,0 +1,13 @@
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\vanhv\OneDrive\Desktop\T1907m.Net\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
