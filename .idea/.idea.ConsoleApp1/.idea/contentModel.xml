@@ -14,7 +14,16 @@
             </e>
           </e>
         </e>
+        <e p="Product2" t="Include">
+          <e p="Product2.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
+        <e p="session2" t="Include">
+          <e p="Session2.cs" t="Include" />
+          <e p="Social.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+        </e>
       </e>
       <e p="ConsoleApp1.sln" t="IncludeFlat" />
       <e p="ConsoleApp2" t="IncludeRecursive">

@@ -12,13 +12,19 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!"); //print
-            //String str;
+            //String str; //1 chuoi chưa có giatri
             //str = Console.ReadLine();
             //int no;
             //no = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine(no);
             //TotalNumber();
-            bien();
+            //bien();
+            dynamic x; // x là biến đúng --> nhưng ngớ ngẩn
+            x = 20; //x là 1 số nguyên
+            Console.WriteLine(x+15);
+            x = "xin chao";
+            Console.WriteLine(x+15);
+            //nói nó là cái rì dựa trên giá trị đang mang
         }
 
         static void TotalNumber(){
