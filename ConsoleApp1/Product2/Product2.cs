@@ -133,14 +133,14 @@ namespace ConsoleApp1.Product2
                 Console.WriteLine("STT:"+(i+1)+"\tImage Name: "+gallery[i]);
             }
             int index;
-            Console.WriteLine("Nhap vi tri anh muon xoa");
+            Console.WriteLine("Enter the location you want to delete :");
             index = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < gallery.Count; i++)
             {
                 if (i == index)
                 {
                     gallery.RemoveAt(index-1);
-                    Console.WriteLine("Xoa thanh cong");
+                    Console.WriteLine("delete successful !");
                     Console.WriteLine("Gallery List:");
                     foreach (String str in gallery)
                     {
