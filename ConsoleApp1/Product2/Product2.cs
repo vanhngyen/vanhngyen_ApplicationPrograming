@@ -78,7 +78,6 @@ namespace ConsoleApp1.Product2
             Console.WriteLine("Enter desc : ");
             string desc = Convert.ToString(Console.ReadLine());
 
-
             Product2 product = new Product2(id, name, price, qty, image, desc);
             listProducts.Add(product);
         }

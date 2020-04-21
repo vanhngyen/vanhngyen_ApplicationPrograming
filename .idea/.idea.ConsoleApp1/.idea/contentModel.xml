@@ -15,6 +15,10 @@
           </e>
         </e>
         <e p="Product2" t="Include">
+          <e p="Cart.cs" t="Include" />
+          <e p="CartMain.cs" t="Include" />
+          <e p="Diamon.cs" t="Include" />
+          <e p="Fashion.cs" t="Include" />
           <e p="Product2.cs" t="Include" />
           <e p="Test.cs" t="Include" />
         </e>
@@ -23,6 +27,13 @@
           <e p="Session2.cs" t="Include" />
           <e p="Social.cs" t="Include" />
           <e p="Student.cs" t="Include" />
+        </e>
+        <e p="session3" t="Include">
+          <e p="Human.cs" t="Include" />
+          <e p="IHuman.cs" t="Include" />
+          <e p="Man.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="Woman.cs" t="Include" />
         </e>
       </e>
       <e p="ConsoleApp1.sln" t="IncludeFlat" />

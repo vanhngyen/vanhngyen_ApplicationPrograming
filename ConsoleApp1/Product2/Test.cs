@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1.session3;
 
 namespace ConsoleApp1.Product2
 {
@@ -7,6 +8,8 @@ namespace ConsoleApp1.Product2
         public static void Main(string[] args)
         {
             Product2 product2 = new Product2();
+            Fashion fashion = new Fashion();
+            Diamon diamon = new Diamon();
             while (true)
             {
                 Console.WriteLine("----------  Product ---------- ");
@@ -32,6 +35,12 @@ namespace ConsoleApp1.Product2
                         break;
                     case 5:
                         product2.getRemoveImage();
+                        break;
+                    case 6:
+                        fashion.check();
+                        break;
+                    case 7:
+                        diamon.checkSoFake();
                         break;
                     default:
                         Console.WriteLine("the end !");
