@@ -47,6 +47,13 @@
             </e>
           </e>
         </e>
+        <e p="Product" t="Include">
+          <e p="Cart.cs" t="Include" />
+          <e p="Diamon.cs" t="Include" />
+          <e p="Fashion.cs" t="Include" />
+          <e p="MainProduct.cs" t="Include" />
+          <e p="product.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
