@@ -71,6 +71,12 @@ namespace ConsoleApp2.Product
             set => gallery = value;
         }
 
+        public string this[int index] //indexer
+        {
+            get { return gallery[index]; }
+            set { gallery[index] = value; }
+        }
+        
         public void getInfo()
         {
             Console.WriteLine("Id : "+this.id +" | Name : "+this.name +" | qty :"+Qty);

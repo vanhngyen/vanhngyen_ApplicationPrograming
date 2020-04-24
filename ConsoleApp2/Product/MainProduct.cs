@@ -16,6 +16,22 @@ namespace ConsoleApp2.Product
             c1.addProduct(f1);
             c1.addProduct(d1);
             Console.WriteLine("Tong tien :"+c1.FinalTotal());
+            p1.addGallery("anh2");
+            p1.addGallery("anh1");
+            //p1.Gallery[1] = "anh55";
+            p1[1] = "anh26";
+            //list , arraylist tương tự
+            //foreach (string x in p1.Gallery)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
+            for (int i = 0; i < p1.Gallery.Count; i++)
+            {
+                Console.WriteLine(p1[i]);
+            }
+
+          
         }
     }
 }
