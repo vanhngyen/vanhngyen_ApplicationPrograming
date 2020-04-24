@@ -30,7 +30,7 @@ namespace ConsoleApp2.Product
             {
                 Console.WriteLine(p1[i]);
             }
-
+            
           
         }
     }

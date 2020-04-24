@@ -1,68 +1,24 @@
 ﻿namespace ConsoleApp1.assignment4
 {
     //+ Khách hàng nước ngoài: mã khách hàng, họ tên, ngày ra hoá đơn (ngày, tháng, năm), quốc tịch, số lượng, đơn giá. Thành tiền được tính = số lượng * đơn giá.
-    public class CustomerNN
+    public class CustomerNN:Customer
     {
-        private int id;
-        private string name;
-        private string date;
-        private string nationality;
-        private int amount;
-        private double unit_price;
+        private string country;
 
-        public CustomerNN()
+        public CustomerNN(int id, string name, string billDate, int number, string country) : base(id, name, billDate, number)
         {
+            this.country = country;
         }
 
-        public CustomerNN(int id, string name, string date, string nationality, int amount, double unitPrice)
+        public string Country
         {
-            this.id = id;
-            this.name = name;
-            this.date = date;
-            this.nationality = nationality;
-            this.amount = amount;
-            unit_price = unitPrice;
+            get => country;
+            set => country = value;
         }
 
-        public int Id
+        public override int ThanhTien()
         {
-            get => id;
-            set => id = value;
-        }
-
-        public string Name
-        {
-            get => name;
-            set => name = value;
-        }
-
-        public string Date
-        {
-            get => date;
-            set => date = value;
-        }
-
-        public string Nationality
-        {
-            get => nationality;
-            set => nationality = value;
-        }
-
-        public int Amount
-        {
-            get => amount;
-            set => amount = value;
-        }
-
-        public double UnitPrice
-        {
-            get => unit_price;
-            set => unit_price = value;
-        }
-
-        public void Into_money()
-        {
-            double money = amount * unit_price;
+            return Number*2000;
         }
     }
 }

@@ -5,85 +5,19 @@
     //- Nếu số lượng <= định mức thì: thành tiền = số lượng * đơn giá.
     //- Ngược lại thì: thành tiền = đơn giá * định mức + số lượng KW vượt định mức * Đơn giá mới
     
-    public class CustomerVN
+    public class CustomerVN:Customer
     {
-        private int id;
-        private string name;
-        private string date;
-        private string customers;
-        private int amount;
-        private double unit_price;
-        private double quota;
+        private string doituong;
 
-        public CustomerVN()
+        public CustomerVN(int id, string name, string billDate, int number, string doituong) : base(id, name, billDate, number)
         {
+            this.doituong = doituong;
         }
 
-        public CustomerVN(int id, string name, string date, string customers, int amount, double unitPrice, double quota)
+        public string Doituong
         {
-            this.id = id;
-            this.name = name;
-            this.date = date;
-            this.customers = customers;
-            this.amount = amount;
-            unit_price = unitPrice;
-            this.quota = quota;
+            get => doituong;
+            set => doituong = value;
         }
-
-        public int Id
-        {
-            get => id;
-            set => id = value;
-        }
-
-        public string Name
-        {
-            get => name;
-            set => name = value;
-        }
-
-        public string Date
-        {
-            get => date;
-            set => date = value;
-        }
-
-        public string Customers
-        {
-            get => customers;
-            set => customers = value;
-        }
-
-        public int Amount
-        {
-            get => amount;
-            set => amount = value;
-        }
-
-        public double UnitPrice
-        {
-            get => unit_price;
-            set => unit_price = value;
-        }
-
-        public double Quota
-        {
-            get => quota;
-            set => quota = value;
-        }
-
-        public double Into_money(double money,double newprice)
-        {
-            if (amount <= quota)
-            {
-                return money = quota*unit_price;   
-            }
-            else
-            {
-                return money = (unit_price * quota) + (amount * newprice);
-            }
-        }
-        
-        
     }
 }
