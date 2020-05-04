@@ -8,6 +8,8 @@
     <ItemGroup>
       <Compile Remove="Program.cs" />
       <None Include="Program.cs" />
+      <Compile Remove="Product\MainProduct.cs" />
+      <None Include="Product\MainProduct.cs" />
     </ItemGroup>
 
 </Project>
