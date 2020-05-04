@@ -19,6 +19,10 @@
       <None Include="Product2\CartMain.cs" />
       <Compile Remove="assignment4\MainCustomer.cs" />
       <None Include="assignment4\MainCustomer.cs" />
+      <Compile Remove="assignment5\program.cs" />
+      <None Include="assignment5\program.cs" />
+      <Compile Remove="session6\program.cs" />
+      <None Include="session6\program.cs" />
     </ItemGroup>
 
 </Project>

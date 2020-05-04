@@ -17,6 +17,10 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
+        <e p="lab6" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -48,6 +52,11 @@
         <e p="session5" t="Include">
           <e p="MainProgram.cs" t="Include" />
           <e p="Program.cs" t="Include" />
+        </e>
+        <e p="session6" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="TaxCalc.cs" t="Include" />
         </e>
       </e>
       <e p="ConsoleApp1.sln" t="IncludeFlat" />
