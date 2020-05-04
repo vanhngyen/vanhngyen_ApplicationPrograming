@@ -32,11 +32,8 @@ namespace ConsoleApp1.lab6
                     case 4:
                         cc(a, b);
                         break;
-                    case 0:
-                        Environment.Exit(0);
-                        break;
                     default:
-                        Console.WriteLine("the end !");
+                        Environment.Exit(0);
                         break;
                 }
             }
