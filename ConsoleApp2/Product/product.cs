@@ -8,14 +8,19 @@ namespace ConsoleApp2.Product
         protected int id;
         protected string name;
         protected double price;
-        protected uint Qty; //uint đảm bảo số lượng k âm
+        public uint Qty; //uint đảm bảo số lượng k âm
         protected string image;
         protected string desc;
         protected List<string> gallery;
 
+        private event ShowAlert ChangeQty;
         public product()
         {
             this.gallery = new List<string>();
+            if (ChangeQty == null)
+            {
+                ChangeQty += Cart.AlertMessage;
+            }
         }
 
         public product(int id, string name, double price, uint qty, string image, string desc, List<string> gallery)
@@ -27,6 +32,11 @@ namespace ConsoleApp2.Product
             this.image = image;
             this.desc = desc;
             this.gallery = gallery;
+            
+            if (ChangeQty == null)
+            {
+                ChangeQty += Cart.AlertMessage;
+            }
         }
 
         public int Id
@@ -50,7 +60,12 @@ namespace ConsoleApp2.Product
         public uint Qty1
         {
             get => Qty;
-            set => Qty = value;
+            set {  
+                if (Qty != 0)
+                {
+                    ChangeQty("So luong san pham da duoc chinh sua");
+                }
+                Qty = value;}
         }
 
         public string Image

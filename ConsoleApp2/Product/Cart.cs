@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.VisualBasic;
 
 namespace ConsoleApp2.Product
 {
+    public delegate void ShowAlert(string msg);
     public class Cart
     {
+
         private int id;
         private string customer;
         private double grandtotal;
@@ -15,7 +18,9 @@ namespace ConsoleApp2.Product
         public Cart()
         {
         }
+        public event ShowAlert AddToCart;
 
+        
         public Cart(int id, string customer, double grandtotal, List<product> listProduct, string city, string country)
         {
             this.id = id;
@@ -24,6 +29,16 @@ namespace ConsoleApp2.Product
             ListProduct = listProduct;
             this.city = city;
             this.country = country;
+            if (AddToCart == null)
+            {
+                AddToCart += AlertMessage;
+            }
+            
+        }
+        
+        public static void AlertMessage(string msg)
+        {
+            Console.WriteLine(msg);
         }
 
         public int Id
@@ -62,10 +77,15 @@ namespace ConsoleApp2.Product
             set => country = value;
         }
 
+      
+        
+        
         public bool addProduct(product products)
         {
             ListProduct.Add(products);
             //thêm tiền trong grandtotal
+            //phat su kien
+            AddToCart("da them sp " + products.Name + "vao gio hang");
             return true;
         }
 

@@ -23,6 +23,12 @@
       <None Include="assignment5\program.cs" />
       <Compile Remove="session6\program.cs" />
       <None Include="session6\program.cs" />
+      <Compile Remove="lab6\Program.cs" />
+      <None Include="lab6\Program.cs" />
+      <Compile Remove="session7\program.cs" />
+      <None Include="session7\program.cs" />
+      <Compile Remove="sesion8\Session8.cs" />
+      <None Include="sesion8\Session8.cs" />
     </ItemGroup>
 
 </Project>
