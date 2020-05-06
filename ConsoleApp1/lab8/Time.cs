@@ -13,6 +13,7 @@ namespace ConsoleApp1.lab8
 
         public static void countdown()
         {
+            Console.WriteLine("Trigger bomb ");
             int minute = 10;
             int second = 59;
             for (int i = minute ;i>=0;i--){
@@ -25,6 +26,7 @@ namespace ConsoleApp1.lab8
                     }
                 }
             }
+            Console.WriteLine("boom.....");
         }
     }
 }
