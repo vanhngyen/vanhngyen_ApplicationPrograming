@@ -27,8 +27,12 @@
       <None Include="lab6\Program.cs" />
       <Compile Remove="session7\program.cs" />
       <None Include="session7\program.cs" />
-      <Compile Remove="sesion8\Session8.cs" />
-      <None Include="sesion8\Session8.cs" />
+      <Compile Remove="lab8\Time.cs" />
+      <None Include="lab8\Time.cs" />
+      <Compile Remove="session8\Session8.cs" />
+      <None Include="session8\Session8.cs" />
+      <Compile Remove="session8_2\Session8_2.cs" />
+      <None Include="session8_2\Session8_2.cs" />
     </ItemGroup>
 
 </Project>
