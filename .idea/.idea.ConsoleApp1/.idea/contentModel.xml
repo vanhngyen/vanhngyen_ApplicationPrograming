@@ -38,6 +38,7 @@
         <e p="practical" t="Include">
           <e p="Exam2" t="Include">
             <e p="animal.cs" t="Include" />
+            <e p="show.cs" t="Include" />
           </e>
           <e p="geometryExample" t="Include">
             <e p="process.cs" t="Include" />

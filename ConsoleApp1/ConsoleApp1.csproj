@@ -35,6 +35,8 @@
       <None Include="session8_2\Session8_2.cs" />
       <Compile Remove="assignment7\program.cs" />
       <None Include="assignment7\program.cs" />
+      <Compile Remove="practical\geometryExample\Result.cs" />
+      <None Include="practical\geometryExample\Result.cs" />
     </ItemGroup>
 
 </Project>
