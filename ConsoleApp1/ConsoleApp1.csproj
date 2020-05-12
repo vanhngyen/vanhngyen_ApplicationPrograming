@@ -33,6 +33,8 @@
       <None Include="session8\Session8.cs" />
       <Compile Remove="session8_2\Session8_2.cs" />
       <None Include="session8_2\Session8_2.cs" />
+      <Compile Remove="assignment7\program.cs" />
+      <None Include="assignment7\program.cs" />
     </ItemGroup>
 
 </Project>

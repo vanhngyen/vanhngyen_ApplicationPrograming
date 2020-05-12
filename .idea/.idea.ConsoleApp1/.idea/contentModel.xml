@@ -35,6 +35,15 @@
             </e>
           </e>
         </e>
+        <e p="practical" t="Include">
+          <e p="Exam2" t="Include">
+            <e p="animal.cs" t="Include" />
+          </e>
+          <e p="geometryExample" t="Include">
+            <e p="process.cs" t="Include" />
+            <e p="Result.cs" t="Include" />
+          </e>
+        </e>
         <e p="Product2" t="Include">
           <e p="Cart.cs" t="Include" />
           <e p="CartMain.cs" t="Include" />

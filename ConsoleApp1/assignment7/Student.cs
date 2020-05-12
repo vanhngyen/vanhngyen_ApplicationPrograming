@@ -83,7 +83,6 @@ namespace ConsoleApp1.assignment7
             
             Console.WriteLine("Enter id :");
             int id = Convert.ToInt32(Console.ReadLine());
-            
             Console.WriteLine("Enter Name New :");
             NameNew = Convert.ToString(Console.ReadLine());
             Console.WriteLine("Enter Age New :");
@@ -92,7 +91,7 @@ namespace ConsoleApp1.assignment7
             AddressNew = Convert.ToString(Console.ReadLine());
             Console.WriteLine("Enter Gpa New :");
             GpaNew = Convert.ToDouble(Console.ReadLine());
-
+            
             var index = list.FindIndex(student => student.id.Equals(id));
             list[index] = new Student(id, NameNew, AgeNew, AddressNew, GpaNew);
             Console.WriteLine(index);
@@ -104,7 +103,6 @@ namespace ConsoleApp1.assignment7
         {
             Console.WriteLine("Enter id : ");
             int id = Convert.ToInt32(Console.ReadLine());
-            
             var index = list.FindIndex(student => student.id.Equals(id));
             list.RemoveAt(index);
         }
